@@ -1,6 +1,6 @@
 const int time_on = 500;
 
-const int outputs[] = {P2_5, P2_4, P1_5, P1_4, P1_3, P1_2, P4_3, P4_0, P3_7, P8_2};
+const int outputs[] = {P1_3, P1_2, P4_3, P4_0, P3_7, P8_2};
 const int cannon_outputs = 6; // Change to limit output number
 const int launchSignal = P6_0; // Switch signal inputs to analog inputs to make room for other outputs
 const int launchSignalLength = 1500;
