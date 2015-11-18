@@ -1,7 +1,7 @@
 //ENERGIA
 const int steerSignal = P6_1;
 const int potentiometer = P6_2;
-const int steeringMotor = P8_2;
+const int steeringMotor = P1_4;
 
 const long joystickMin = 500;
 const long joystickMax = 2500;
