@@ -1,4 +1,3 @@
-//ENERGIA
 const int steerSignal = P6_1;
 const int potentiometer = P6_2;
 const int steeringMotor = P1_4;
@@ -23,7 +22,7 @@ void steering_setup() {
 }
 
 void steering_loop() {
-  steerLength = pulseIn(launchSignal, HIGH);
+  steerLength = pulseIn(steerSignal, HIGH);
   potentVal = analogRead(potentiometer);
   
   steeringValue = ((steerLength-joystickMin)/(joystickMax-joystickMin));
